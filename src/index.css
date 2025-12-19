@@ -1,0 +1,235 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Political Campaign Design System - Kalyan Municipal Election */
+
+@layer base {
+  :root {
+    /* Core Colors - Warm Saffron + Navy Trust */
+    --background: 40 30% 98%;
+    --foreground: 220 25% 15%;
+
+    --card: 40 25% 97%;
+    --card-foreground: 220 25% 15%;
+
+    --popover: 40 30% 98%;
+    --popover-foreground: 220 25% 15%;
+
+    /* Primary - Deep Saffron/Orange */
+    --primary: 24 85% 48%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Navy Blue Trust */
+    --secondary: 220 55% 22%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Muted - Warm Gray */
+    --muted: 40 15% 92%;
+    --muted-foreground: 220 15% 45%;
+
+    /* Accent - Warm Gold */
+    --accent: 42 90% 55%;
+    --accent-foreground: 220 25% 15%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 40 20% 88%;
+    --input: 40 20% 88%;
+    --ring: 24 85% 48%;
+
+    --radius: 0.75rem;
+
+    /* Custom Campaign Colors */
+    --hero-overlay: 220 55% 12%;
+    --section-light: 40 25% 96%;
+    --section-dark: 220 55% 18%;
+    --text-hero: 0 0% 100%;
+    --gold-shimmer: 42 90% 60%;
+
+    /* Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220 55% 18% / 0.9), hsl(24 85% 35% / 0.8));
+    --gradient-cta: linear-gradient(135deg, hsl(24 85% 48%), hsl(24 85% 38%));
+    --gradient-section: linear-gradient(180deg, hsl(40 30% 98%), hsl(40 25% 94%));
+
+    /* Shadows */
+    --shadow-card: 0 4px 20px -4px hsl(220 25% 15% / 0.1);
+    --shadow-elevated: 0 20px 40px -12px hsl(220 25% 15% / 0.15);
+    --shadow-glow: 0 0 40px hsl(24 85% 48% / 0.3);
+
+    --sidebar-background: 40 25% 97%;
+    --sidebar-foreground: 220 25% 15%;
+    --sidebar-primary: 24 85% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 40 15% 92%;
+    --sidebar-accent-foreground: 220 25% 15%;
+    --sidebar-border: 40 20% 88%;
+    --sidebar-ring: 24 85% 48%;
+  }
+
+  .dark {
+    --background: 220 55% 8%;
+    --foreground: 40 25% 95%;
+
+    --card: 220 55% 12%;
+    --card-foreground: 40 25% 95%;
+
+    --popover: 220 55% 10%;
+    --popover-foreground: 40 25% 95%;
+
+    --primary: 24 85% 55%;
+    --primary-foreground: 220 25% 10%;
+
+    --secondary: 220 45% 30%;
+    --secondary-foreground: 40 25% 95%;
+
+    --muted: 220 45% 18%;
+    --muted-foreground: 40 15% 65%;
+
+    --accent: 42 90% 55%;
+    --accent-foreground: 220 25% 10%;
+
+    --destructive: 0 62.8% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 45% 20%;
+    --input: 220 45% 20%;
+    --ring: 24 85% 55%;
+
+    --sidebar-background: 220 55% 10%;
+    --sidebar-foreground: 40 25% 95%;
+    --sidebar-primary: 24 85% 55%;
+    --sidebar-primary-foreground: 220 25% 10%;
+    --sidebar-accent: 220 45% 18%;
+    --sidebar-accent-foreground: 40 25% 95%;
+    --sidebar-border: 220 45% 20%;
+    --sidebar-ring: 24 85% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+}
+
+@layer components {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent;
+  }
+
+  .section-padding {
+    @apply py-16 md:py-24 lg:py-32 px-4 md:px-8;
+  }
+
+  .container-campaign {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .card-campaign {
+    @apply bg-card rounded-xl shadow-[var(--shadow-card)] border border-border/50 transition-all duration-300 hover:shadow-[var(--shadow-elevated)] hover:-translate-y-1;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:shadow-[var(--shadow-glow)] hover:scale-105 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:opacity-90 hover:scale-105 active:scale-95;
+  }
+
+  .btn-outline {
+    @apply border-2 border-primary-foreground/80 text-primary-foreground px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 hover:bg-primary-foreground/10 hover:scale-105 active:scale-95;
+  }
+
+  .heading-hero {
+    @apply font-display text-4xl md:text-5xl lg:text-7xl font-bold leading-tight tracking-tight;
+  }
+
+  .heading-section {
+    @apply font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+
+  .heading-card {
+    @apply font-sans text-xl md:text-2xl font-semibold;
+  }
+
+  .text-body {
+    @apply text-muted-foreground text-base md:text-lg leading-relaxed;
+  }
+}
+
+@layer utilities {
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  .animate-slide-left {
+    animation: slideLeft 0.8s ease-out forwards;
+  }
+
+  .animate-slide-right {
+    animation: slideRight 0.8s ease-out forwards;
+  }
+
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes slideRight {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
