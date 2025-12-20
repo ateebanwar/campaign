@@ -32,8 +32,11 @@ const AboutSection = () => {
             About the Candidate
           </span>
           <h2 className="heading-section mt-4 text-foreground">
-            {aboutContent.headline}
+            A Son of Kalyan, Fighting for Our Future
           </h2>
+          <p className="text-body mt-4 max-w-2xl mx-auto">
+            Dedicated to serving the people of Kalyan Ward 8 with honesty and passion.
+          </p>
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
@@ -106,18 +109,15 @@ const AboutSection = () => {
             return (
               <motion.div
                 key={index}
-                initial={{ opacity: 0, y: 20 }}
-                animate={isInView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.6, delay: 0.9 + index * 0.1 }}
-                className="card-campaign p-6 text-center"
+                className="card-campaign p-6 text-center group hover:bg-primary transition-all duration-300"
               >
-                <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <IconComponent className="w-7 h-7 text-primary" />
+                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:bg-white/20 transition-colors">
+                  <IconComponent className="w-6 h-6 text-primary group-hover:text-white" />
                 </div>
-                <h3 className="font-semibold text-foreground mb-2">
+                <h4 className="font-bold text-foreground group-hover:text-white transition-colors">
                   {highlight.title}
-                </h3>
-                <p className="text-sm text-muted-foreground">
+                </h4>
+                <p className="text-sm text-muted-foreground mt-2 group-hover:text-white/80 transition-colors">
                   {highlight.description}
                 </p>
               </motion.div>

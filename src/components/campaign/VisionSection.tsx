@@ -1,7 +1,7 @@
 import { useRef, useState } from 'react';
 import { motion, useInView, AnimatePresence } from 'framer-motion';
 import { Droplets, Sparkles, Shield, Megaphone, GraduationCap, CheckCircle2 } from 'lucide-react';
-import { promises } from '@/data/campaignData';
+import { promises, visionContent } from '@/data/campaignData';
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   droplets: Droplets,
@@ -40,7 +40,7 @@ const VisionSection = () => {
             Vision & Promises
           </h2>
           <p className="text-secondary-foreground/70 mt-4 max-w-2xl mx-auto text-lg">
-            Realistic goals. Clear plans. Accountable execution.
+            {visionContent.subheadline}
           </p>
         </motion.div>
 
@@ -57,11 +57,10 @@ const VisionSection = () => {
               <button
                 key={promise.id}
                 onClick={() => setActiveTab(promise.id)}
-                className={`flex items-center gap-2 px-5 py-3 rounded-full font-medium transition-all duration-300 ${
-                  activeTab === promise.id
-                    ? 'bg-primary text-primary-foreground shadow-glow'
-                    : 'bg-secondary-foreground/10 text-secondary-foreground/80 hover:bg-secondary-foreground/20'
-                }`}
+                className={`flex items-center gap-2 px-5 py-3 rounded-full font-medium transition-all duration-300 ${activeTab === promise.id
+                  ? 'bg-primary text-primary-foreground shadow-glow'
+                  : 'bg-secondary-foreground/10 text-secondary-foreground/80 hover:bg-secondary-foreground/20'
+                  }`}
               >
                 <Icon className="w-5 h-5" />
                 <span className="hidden sm:inline">{promise.title.split(' ').slice(0, 2).join(' ')}</span>
@@ -169,7 +168,7 @@ const VisionSection = () => {
           <div className="inline-flex items-center gap-3 bg-accent/20 text-accent px-6 py-3 rounded-full">
             <CheckCircle2 className="w-5 h-5" />
             <span className="font-medium">
-              Monthly progress updates shared publicly
+              {visionContent.guaranteeText}
             </span>
           </div>
         </motion.div>

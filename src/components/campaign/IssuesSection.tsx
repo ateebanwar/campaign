@@ -57,24 +57,21 @@ const IssuesSection = () => {
                 className="group"
               >
                 <div
-                  className={`card-campaign p-6 cursor-pointer transition-all duration-300 ${
-                    isActive ? 'ring-2 ring-primary shadow-glow' : ''
-                  }`}
+                  className={`card-campaign p-6 cursor-pointer transition-all duration-300 ${isActive ? 'ring-2 ring-primary shadow-glow' : ''
+                    }`}
                   onClick={() => setActiveIssue(isActive ? null : issue.id)}
                 >
                   {/* Header */}
                   <div className="flex items-start gap-4 mb-4">
-                    <div className={`w-14 h-14 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${
-                      isActive ? 'bg-primary text-primary-foreground' : 'bg-primary/10 text-primary'
-                    }`}>
+                    <div className={`w-14 h-14 rounded-xl flex items-center justify-center shrink-0 transition-colors duration-300 ${isActive ? 'bg-primary text-primary-foreground' : 'bg-primary/10 text-primary'
+                      }`}>
                       <IconComponent className="w-7 h-7" />
                     </div>
                     <div className="flex-1">
                       <h3 className="heading-card text-foreground flex items-center gap-2">
                         {issue.title}
-                        <ChevronRight className={`w-5 h-5 text-primary transition-transform duration-300 ${
-                          isActive ? 'rotate-90' : ''
-                        }`} />
+                        <ChevronRight className={`w-5 h-5 text-primary transition-transform duration-300 ${isActive ? 'rotate-90' : ''
+                          }`} />
                       </h3>
                     </div>
                   </div>

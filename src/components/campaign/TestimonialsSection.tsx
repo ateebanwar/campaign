@@ -139,11 +139,10 @@ const TestimonialsSection = () => {
                     setDirection(index > currentIndex ? 1 : -1);
                     setCurrentIndex(index);
                   }}
-                  className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                    index === currentIndex
+                  className={`w-3 h-3 rounded-full transition-all duration-300 ${index === currentIndex
                       ? 'bg-primary w-8'
                       : 'bg-muted hover:bg-primary/50'
-                  }`}
+                    }`}
                   aria-label={`Go to testimonial ${index + 1}`}
                 />
               ))}

@@ -7,26 +7,7 @@ const CTASection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
-  const ctaOptions = [
-    {
-      icon: Users,
-      title: ctaContent.volunteerText,
-      description: "Help us reach every household. Your time matters.",
-      color: "primary",
-    },
-    {
-      icon: AlertTriangle,
-      title: ctaContent.reportIssueText,
-      description: "Share problems in your area. We'll take action.",
-      color: "accent",
-    },
-    {
-      icon: Heart,
-      title: ctaContent.joinCampaignText,
-      description: "Be part of the change movement for Kalyan.",
-      color: "secondary",
-    },
-  ];
+  const ctaOptions = ctaContent.options;
 
   return (
     <section
@@ -59,7 +40,7 @@ const CTASection = () => {
         {/* CTA Cards */}
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {ctaOptions.map((option, index) => {
-            const Icon = option.icon;
+            const Icon = option.icon === 'users' ? Users : option.icon === 'alert-triangle' ? AlertTriangle : Heart;
             return (
               <motion.div
                 key={index}
@@ -81,7 +62,7 @@ const CTASection = () => {
                 </p>
 
                 <button className="flex items-center gap-2 text-accent font-medium group-hover:gap-4 transition-all">
-                  Get Started
+                  {ctaContent.getStartedText}
                   <ArrowRight className="w-5 h-5" />
                 </button>
               </motion.div>
@@ -96,11 +77,7 @@ const CTASection = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-20 flex flex-wrap justify-center gap-12 md:gap-20"
         >
-          {[
-            { number: "2,500+", label: "Supporters" },
-            { number: "150+", label: "Volunteers" },
-            { number: "50+", label: "Events Held" },
-          ].map((stat, index) => (
+          {ctaContent.stats.map((stat, index) => (
             <div key={index} className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-accent">
                 {stat.number}
