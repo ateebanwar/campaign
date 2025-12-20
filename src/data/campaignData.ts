@@ -37,6 +37,7 @@ export interface PastWork {
   location: string;
   year: string;
   image?: string;
+  gallery?: string[];
   category: string;
 }
 
@@ -147,7 +148,12 @@ export const pastWorkData: PastWork[] = [
     description: "Organized water tanker distribution for 500+ families during the severe water shortage. Coordinated with local authorities and funded partly from personal savings.",
     location: "Khadakpada, Kalyan",
     year: "2019",
-    category: "Water Supply"
+    category: "Water Supply",
+    gallery: [
+      "https://images.unsplash.com/photo-1548936715-3843519bb60b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1542310503-68d147bb9cf8?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?q=80&w=800&auto=format&fit=crop"
+    ]
   },
   {
     id: "garbage-cleanup-drive",
@@ -155,7 +161,12 @@ export const pastWorkData: PastWork[] = [
     description: "Started and led monthly garbage cleanup drives with 100+ volunteers. Cleared dumping grounds and installed waste bins in 5 localities.",
     location: "Ward 8 Area",
     year: "2018-Present",
-    category: "Sanitation"
+    category: "Sanitation",
+    gallery: [
+      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621459544210-9dab2149271a?q=80&w=800&auto=format&fit=crop"
+    ]
   },
   {
     id: "flood-relief-2021",
@@ -163,7 +174,12 @@ export const pastWorkData: PastWork[] = [
     description: "During the 2021 monsoon flooding, helped evacuate 150 families, arranged temporary shelters, and distributed food and essentials for two weeks.",
     location: "Low-lying areas, Kalyan",
     year: "2021",
-    category: "Emergency Relief"
+    category: "Emergency Relief",
+    gallery: [
+      "https://images.unsplash.com/photo-1461532257246-777de18cd58b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544161515-4af6b1d8d16e?q=80&w=800&auto=format&fit=crop"
+    ]
   },
   {
     id: "streetlight-campaign",
@@ -171,7 +187,12 @@ export const pastWorkData: PastWork[] = [
     description: "Collected 2000+ signatures and persistent follow-ups resulted in installation of 45 new street lights in dark lanes of our ward.",
     location: "Ward 8",
     year: "2020",
-    category: "Infrastructure"
+    category: "Infrastructure",
+    gallery: [
+      "https://images.unsplash.com/photo-1474487022159-5a8b75865f3a?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1517089535819-f485f0882ef4?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?q=80&w=800&auto=format&fit=crop"
+    ]
   },
   {
     id: "senior-citizen-help",
@@ -179,7 +200,12 @@ export const pastWorkData: PastWork[] = [
     description: "Established a volunteer network to help elderly citizens with hospital visits, pension paperwork, and grocery deliveries.",
     location: "Khadakpada",
     year: "2017-Present",
-    category: "Social Welfare"
+    category: "Social Welfare",
+    gallery: [
+      "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1509059852496-f3822ae057bf?q=80&w=800&auto=format&fit=crop"
+    ]
   },
   {
     id: "school-renovation",
@@ -187,7 +213,12 @@ export const pastWorkData: PastWork[] = [
     description: "Raised funds and organized volunteers to renovate classrooms, install fans, and provide notebooks to 200+ students.",
     location: "Kalyan Municipal School No. 5",
     year: "2022",
-    category: "Education"
+    category: "Education",
+    gallery: [
+      "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop"
+    ]
   }
 ];
 
