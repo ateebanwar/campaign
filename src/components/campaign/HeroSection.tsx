@@ -40,11 +40,11 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container-campaign min-h-screen flex flex-col lg:flex-row items-center justify-between px-4 md:px-8 pt-20 pb-0 overflow-visible">
+      <div className="relative z-10 container-campaign min-h-[100dvh] flex flex-col lg:flex-row items-center justify-between px-4 md:px-8 pt-16 lg:pt-20 pb-0 overflow-visible">
         {/* Left Content - Text */}
         <motion.div
           style={{ opacity }}
-          className="flex-1 text-center lg:text-left space-y-6 lg:pr-12 py-12 lg:py-0"
+          className="flex-1 flex flex-col items-center lg:items-start text-center lg:text-left space-y-3 md:space-y-4 lg:space-y-6 lg:pr-12 py-6 lg:py-0"
         >
           {/* Ward Badge */}
           <motion.div
@@ -72,7 +72,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-xl md:text-2xl text-slate-300 font-light max-w-xl mx-auto lg:mx-0"
+            className="text-lg md:text-2xl text-slate-300 font-light max-w-xl mx-auto lg:mx-0"
           >
             {candidateInfo.subTagline}
           </motion.p>
@@ -82,12 +82,12 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="pt-4"
+            className="pt-2 lg:pt-4"
           >
-            <h2 className="text-2xl md:text-3xl font-display font-bold text-accent">
+            <h2 className="text-xl md:text-3xl font-display font-bold text-accent">
               {candidateInfo.name}
             </h2>
-            <p className="text-slate-400 mt-2">{candidateInfo.position}</p>
+            <p className="text-xs md:text-base text-slate-400 mt-1 lg:mt-2">{candidateInfo.position}</p>
           </motion.div>
 
           {/* CTA Buttons */}
@@ -95,17 +95,17 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="flex flex-col sm:flex-row gap-4 pt-6 justify-center lg:justify-start"
+            className="flex flex-col sm:flex-row gap-3 lg:gap-4 pt-4 lg:pt-6 justify-center lg:justify-start w-full sm:w-auto"
           >
             <button
               onClick={() => scrollToSection('contact')}
-              className="btn-primary flex items-center justify-center gap-2"
+              className="btn-primary py-3 lg:py-4 px-6 lg:px-8 text-sm lg:text-lg flex items-center justify-center gap-2"
             >
               Vote for {candidateInfo.name.split(' ')[0]}
             </button>
             <button
               onClick={() => scrollToSection('vision')}
-              className="btn-outline border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white flex items-center justify-center gap-2"
+              className="btn-outline py-3 lg:py-4 px-6 lg:px-8 text-sm lg:text-lg border-slate-700 text-slate-300 hover:bg-slate-800 hover:text-white flex items-center justify-center gap-2"
             >
               See My Vision
             </button>
@@ -118,13 +118,13 @@ const HeroSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
           style={{ y }}
-          className="flex-1 mt-12 lg:mt-0 relative self-end lg:h-[85vh] flex items-end justify-center lg:justify-end overflow-visible"
+          className="flex-1 mt-4 lg:mt-0 relative self-end h-[35vh] sm:h-[45vh] lg:h-[85vh] flex items-end justify-center lg:justify-end overflow-visible"
         >
-          <div className="relative w-full max-w-2xl lg:max-w-none flex justify-center lg:justify-end">
+          <div className="relative h-full lg:h-auto w-full max-w-2xl lg:max-w-none flex justify-center lg:justify-end">
             <img
               src={candidateInfo.heroImage}
               alt={candidateInfo.name}
-              className="w-[90%] md:w-[80%] lg:w-auto lg:h-[110%] object-contain object-bottom select-none pointer-events-none"
+              className="h-full lg:h-[110%] w-auto object-contain object-bottom select-none pointer-events-none"
               style={{
                 filter: 'drop-shadow(0 20px 50px rgba(0,0,0,0.5))',
                 marginBottom: '-2px' // Prevent sub-pixel gaps at bottom
