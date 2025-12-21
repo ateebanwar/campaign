@@ -65,6 +65,35 @@ export interface PastWork {
   image?: string;
   gallery?: string[];
   category: string;
+  ctaLabel: string;
+}
+
+export interface PastWorkContent {
+  badgeText: string;
+  headline: string;
+  subheadline: string;
+}
+
+export interface OngoingWork {
+  id: string;
+  title: string;
+  description: string;
+  category: string;
+  status: string;
+  startDate: string;
+  estimatedCompletion: string;
+  gallery: string[];
+}
+
+export interface OngoingWorkContent {
+  badgeText: string;
+  headline: string;
+  subheadline: string;
+  updatesButtonText: string;
+  startedLabel: string;
+  targetLabel: string;
+  showMoreLabel: string;
+  showLessLabel: string;
 }
 
 export interface Testimonial {
@@ -129,6 +158,9 @@ export const visionContent = siteConfig.visionContent as VisionContent;
 export const promises = siteConfig.promises as Promise[];
 export const localIssues = siteConfig.localIssues as Issue[];
 export const pastWorkData = siteConfig.pastWorkData as PastWork[];
+export const pastWorkContent = siteConfig.pastWorkContent as PastWorkContent;
+export const ongoingWorkData = siteConfig.ongoingWorkData as OngoingWork[];
+export const ongoingWorkContent = siteConfig.ongoingWorkContent as OngoingWorkContent;
 export const testimonials = siteConfig.testimonials as Testimonial[];
 export const events = siteConfig.events as Event[];
 export const eventsContent = siteConfig.eventsContent as EventsContent;

@@ -2,6 +2,7 @@ import Navbar from '@/components/campaign/Navbar';
 import HeroSection from '@/components/campaign/HeroSection';
 import AboutSection from '@/components/campaign/AboutSection';
 import PastWorkSection from '@/components/campaign/PastWorkSection';
+import OngoingWorkSection from '@/components/campaign/OngoingWorkSection';
 import IssuesSection from '@/components/campaign/IssuesSection';
 import VisionSection from '@/components/campaign/VisionSection';
 import TestimonialsSection from '@/components/campaign/TestimonialsSection';
@@ -17,6 +18,7 @@ const Index = () => {
       <HeroSection />
       <AboutSection />
       <PastWorkSection />
+      <OngoingWorkSection />
       <IssuesSection />
       <VisionSection />
       <TestimonialsSection />

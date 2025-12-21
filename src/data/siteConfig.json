@@ -167,14 +167,20 @@
             "icon": "building"
         }
     ],
+    "pastWorkContent": {
+        "badgeText": "Proven Track Record",
+        "headline": "Work Before Office",
+        "subheadline": "Actions speak louder than promises. Here's what I've done for our community without holding any official position."
+    },
     "pastWorkData": [
         {
             "id": "water-crisis-2019",
-            "title": "Water Crisis Relief - Summer 2019",
+            "title": "Water Crisis Relief",
             "description": "Organized water tanker distribution for 500+ families during the severe water shortage. Coordinated with local authorities and funded partly from personal savings.",
             "location": "Khadakpada, Kalyan",
             "year": "2019",
             "category": "Water Supply",
+            "ctaLabel": "View Impact",
             "gallery": [
                 "https://images.unsplash.com/photo-1548936715-3843519bb60b?q=80&w=800&auto=format&fit=crop",
                 "https://images.unsplash.com/photo-1542310503-68d147bb9cf8?q=80&w=800&auto=format&fit=crop",
@@ -183,11 +189,12 @@
         },
         {
             "id": "garbage-cleanup-drive",
-            "title": "Monthly Cleanliness Drives",
+            "title": "Cleanliness Drives",
             "description": "Started and led monthly garbage cleanup drives with 100+ volunteers. Cleared dumping grounds and installed waste bins in 5 localities.",
             "location": "Ward 8 Area",
             "year": "2018-Present",
             "category": "Sanitation",
+            "ctaLabel": "See Results",
             "gallery": [
                 "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop",
                 "https://images.unsplash.com/photo-1618477461853-cf6ed80faba5?q=80&w=800&auto=format&fit=crop",
@@ -196,11 +203,12 @@
         },
         {
             "id": "flood-relief-2021",
-            "title": "Flood Relief Operations",
+            "title": "Flood Relief Ops",
             "description": "During the 2021 monsoon flooding, helped evacuate 150 families, arranged temporary shelters, and distributed food and essentials for two weeks.",
             "location": "Low-lying areas, Kalyan",
             "year": "2021",
             "category": "Emergency Relief",
+            "ctaLabel": "View Relief",
             "gallery": [
                 "https://images.unsplash.com/photo-1461532257246-777de18cd58b?q=80&w=800&auto=format&fit=crop",
                 "https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?q=80&w=800&auto=format&fit=crop",
@@ -209,11 +217,12 @@
         },
         {
             "id": "streetlight-campaign",
-            "title": "Street Light Petition",
+            "title": "Light Campaign",
             "description": "Collected 2000+ signatures and persistent follow-ups resulted in installation of 45 new street lights in dark lanes of our ward.",
             "location": "Ward 8",
             "year": "2020",
             "category": "Infrastructure",
+            "ctaLabel": "See Progress",
             "gallery": [
                 "https://images.unsplash.com/photo-1474487022159-5a8b75865f3a?q=80&w=800&auto=format&fit=crop",
                 "https://images.unsplash.com/photo-1517089535819-f485f0882ef4?q=80&w=800&auto=format&fit=crop",
@@ -222,11 +231,12 @@
         },
         {
             "id": "senior-citizen-help",
-            "title": "Senior Citizen Assistance",
+            "title": "Senior Care",
             "description": "Established a volunteer network to help elderly citizens with hospital visits, pension paperwork, and grocery deliveries.",
             "location": "Khadakpada",
             "year": "2017-Present",
             "category": "Social Welfare",
+            "ctaLabel": "Learn More",
             "gallery": [
                 "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop",
                 "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=800&auto=format&fit=crop",
@@ -235,15 +245,83 @@
         },
         {
             "id": "school-renovation",
-            "title": "Municipal School Support",
+            "title": "School Support",
             "description": "Raised funds and organized volunteers to renovate classrooms, install fans, and provide notebooks to 200+ students.",
-            "location": "Kalyan Municipal School No. 5",
+            "location": "Kalyan Municipal School",
             "year": "2022",
             "category": "Education",
+            "ctaLabel": "View Results",
             "gallery": [
                 "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop",
                 "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop",
                 "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop"
+            ]
+        }
+    ],
+    "ongoingWorkContent": {
+        "badgeText": "Currently In Action",
+        "headline": "Ongoing Projects",
+        "subheadline": "The work doesn't stop. We are actively working on multiple initiatives across the ward to improve your quality of life every single day.",
+        "updatesButtonText": "Follow Live Updates",
+        "startedLabel": "Started",
+        "targetLabel": "Target",
+        "showMoreLabel": "View Details",
+        "showLessLabel": "Show Less"
+    },
+    "ongoingWorkData": [
+        {
+            "id": "school-infra-2024",
+            "title": "Modernizing Ward 8 Schools",
+            "description": "Currently supervising the installation of digital classrooms and solar panel systems across three municipal schools. This project aims to bring modern learning tools to our children while reducing energy costs.",
+            "category": "Education & Energy",
+            "status": "In Progress (65% Complete)",
+            "startDate": "Nov 2023",
+            "estimatedCompletion": "March 2024",
+            "gallery": [
+                "https://images.unsplash.com/photo-1577416412292-747c6607f055?q=80&w=800&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop"
+            ]
+        },
+        {
+            "id": "road-widening-2024",
+            "title": "Khadakpada Road De-congestion",
+            "description": "Working with traffic engineers and local vendors to clear bottlenecks and implement a smarter drainage system alongside road widening. This will significantly reduce peak-hour traffic jams in our ward.",
+            "category": "Infrastructure",
+            "status": "Active Phase",
+            "startDate": "Jan 2024",
+            "estimatedCompletion": "June 2024",
+            "gallery": [
+                "https://images.unsplash.com/photo-1541888946425-d81bb1930060?q=80&w=800&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1545143333-11bbbc27b9a3?q=80&w=800&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?q=80&w=800&auto=format&fit=crop"
+            ]
+        },
+        {
+            "id": "community-health-2024",
+            "title": "Kalyan Wellness Center",
+            "description": "Redesigning an abandoned building into a community-led health and wellness center. It will host weekly doctor meetups, yoga sessions, and a free basic diagnostic lab.",
+            "category": "Social Welfare",
+            "status": "Foundation & Design",
+            "startDate": "Feb 2024",
+            "estimatedCompletion": "Winter 2024",
+            "gallery": [
+                "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1538108197794-598f88ce514d?q=80&w=800&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1516549655169-df83a0774514?q=80&w=800&auto=format&fit=crop"
+            ]
+        },
+        {
+            "id": "solar-streetlights-2024",
+            "title": "Smart Solar Lighting",
+            "description": "Piloting off-grid solar streetlights in interior lanes that are prone to power outages. These high-efficiency LEDs ensure safety during load-shedding hours.",
+            "category": "Technology & Safety",
+            "status": "Pilot Testing",
+            "startDate": "Mar 2024",
+            "estimatedCompletion": "Ongoing",
+            "gallery": [
+                "https://images.unsplash.com/photo-1542310503-68d147bb9cf8?q=80&w=800&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1517089535819-f485f0882ef4?q=80&w=800&auto=format&fit=crop"
             ]
         }
     ],
