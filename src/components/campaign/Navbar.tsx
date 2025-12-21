@@ -29,8 +29,8 @@ const Navbar = () => {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-            ? 'bg-background/95 backdrop-blur-md shadow-card'
-            : 'bg-transparent'
+          ? 'bg-background/95 backdrop-blur-md shadow-card'
+          : 'bg-transparent'
           }`}
       >
         <div className="container-campaign px-4">
@@ -45,7 +45,7 @@ const Navbar = () => {
               className={`font-display font-bold text-xl transition-colors ${isScrolled ? 'text-foreground' : 'text-hero-text'
                 }`}
             >
-              {candidateInfo.name.split(' ')[0]}
+              {candidateInfo.name}
               <span className="text-primary">.</span>
             </a>
 
@@ -68,8 +68,8 @@ const Navbar = () => {
               <a
                 href={`tel:${candidateInfo.phone}`}
                 className={`hidden sm:flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium transition-all ${isScrolled
-                    ? 'bg-primary text-primary-foreground'
-                    : 'bg-primary-foreground/20 text-hero-text backdrop-blur-sm'
+                  ? 'bg-primary text-primary-foreground'
+                  : 'bg-primary-foreground/20 text-hero-text backdrop-blur-sm'
                   }`}
               >
                 <Phone className="w-4 h-4" />
@@ -108,7 +108,7 @@ const Navbar = () => {
             >
               <div className="flex items-center justify-between mb-8">
                 <span className="font-display font-bold text-xl text-foreground">
-                  {candidateInfo.name.split(' ')[0]}
+                  {candidateInfo.name}
                   <span className="text-primary">.</span>
                 </span>
                 <button
