@@ -10,7 +10,7 @@
         "profileImage": "/candidate-profile.jpg",
         "whatsapp": "+91 7276544420",
         "socialLinks": {
-            "facebook": "https://facebook.com/FardeenPaikarkalyan",
+            "facebook": "https://www.facebook.com/profile.php?id=100005204448872&sk",
             "twitter": "https://twitter.com/FardeenPaikar15",
             "instagram": "https://instagram.com/FardeenPaikarkalyan",
             "youtube": "https://youtube.com/@FardeenPaikarkalyan"
@@ -187,8 +187,7 @@
                 "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-6/557735927_2997726250410827_1962862633068463808_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=tQisMjYpqbYQ7kNvwHuaHlz&_nc_oc=AdnEzOLXVmVGZrbef95nCmerw7VgYPt7nQ9qouC7XDshCZXWRie8eGgIU-WkuvNr4Yo&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=ghGkN_5E0oFzBsSDGdezig&oh=00_AfkBveKVbYnGjufQG-GdfYa3MBdNoqtHAW9UT0G5BHMeUg&oe=694DBDB8",
                 "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-6/557692311_2997721680411284_537068396966195880_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=833d8c&_nc_ohc=ro8UQs3aZkoQ7kNvwFoMnjs&_nc_oc=AdkT_ElvZETxyCY-R1Ng3RU6D7L1GObkWTzCjKmXahWvzX_EtzTJjQDQ8u3ph2SgUM8&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=kGwtfgPwsFyMVyDZ4EUWrg&oh=00_AfnqKg1OBywl2SElOlRS0ZvbSYsEltVgre-HRYPMKpgCOA&oe=694DF12D",
                 "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-6/558976292_2997715850411867_6128467767755661368_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=i28lG-ihJdcQ7kNvwEGzFt-&_nc_oc=AdkQTv5LGpchDJc39PWeLw65Yf3vpobzPzo19qWRb5L7WZ83161mm-KG1zDyfkfzDAg&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=KoV4HwTF1mohfJ5Gx5Gp7w&oh=00_Afm_DdATPqVK3jW_l84IA79uER4LpMptXfpOiwiL7sSgmQ&oe=694DD29C",
-                "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-6/558950009_2997718860411566_5423048471802616016_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=HbcajE9RXoQQ7kNvwEnxb87&_nc_oc=AdmqAV6oXPZvjbTx4Boo1W380NEkEqTQLP2mIkiAQf69xRNiYcssrmWUpX8dpqFerqI&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=wQ_-Ddw5Sfh1MEmZz7SVgg&oh=00_AfkVaLIZH4itAQxGN9Ob7F8aWOrYFgUYmSwEuji7XgY6Bg&oe=694DD063",
-                ""
+                "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-6/558950009_2997718860411566_5423048471802616016_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=HbcajE9RXoQQ7kNvwEnxb87&_nc_oc=AdmqAV6oXPZvjbTx4Boo1W380NEkEqTQLP2mIkiAQf69xRNiYcssrmWUpX8dpqFerqI&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=wQ_-Ddw5Sfh1MEmZz7SVgg&oh=00_AfkVaLIZH4itAQxGN9Ob7F8aWOrYFgUYmSwEuji7XgY6Bg&oe=694DD063"
             ]
         },
         {
@@ -208,17 +207,20 @@
             ]
         },
         {
-            "id": "flood-relief-2021",
-            "title": "Flood Relief Ops",
-            "description": "During the 2021 monsoon flooding, helped evacuate 150 families, arranged temporary shelters, and distributed food and essentials for two weeks.",
-            "location": "Low-lying areas, Kalyan",
-            "year": "2021",
-            "category": "Emergency Relief",
-            "ctaLabel": "View Relief",
+            "id": "road-maintenance-2022",
+            "title": "Road Maintenance Drive",
+            "description": "Participated in road maintenance work including filling potholes, clearing debris, and improving drainage to ensure safer transportation for local residents.",
+            "location": "Residential areas, Kalyan",
+            "year": "2022",
+            "category": "Infrastructure Development",
+            "ctaLabel": "View Work",
             "gallery": [
-                "https://images.unsplash.com/photo-1461532257246-777de18cd58b?q=80&w=800&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1582266255765-fa5cf1a1d501?q=80&w=800&auto=format&fit=crop",
-                "https://images.unsplash.com/photo-1544161515-4af6b1d8d16e?q=80&w=800&auto=format&fit=crop"
+                "https://scontent.fbom50-1.fna.fbcdn.net/v/t51.82787-15/572792613_18544239895023841_3785415265557016343_n.webp?stp=dst-jpg_tt6&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=v3DIO71qh1MQ7kNvwFPZup2&_nc_oc=AdkblpK_HPrrDw4lxOK0rnG33dUQ47BFc5w-PpP8N5WAnwUZGZAfevCpFDPFBYNBYTk&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=R5-Eg6DGeo-EubYo433tSA&oh=00_Afnkvb1zaP1VBGnqEzxakwVXLMcWkIGa7_8DDD44CdOBjA&oe=694E1424",
+                "https://scontent.fbom50-1.fna.fbcdn.net/v/t51.82787-15/573272501_18544239877023841_6753459433786875958_n.webp?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HhP7Je8AE6oQ7kNvwGoCaCZ&_nc_oc=AdkHr53ReP5lD-lwhyGcDHnMYTDVPj5f8tSZwApbk-va9C7njpXudhNKX7GKcOh73go&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=YhrRo5XLO_OP-mp9i_eiGw&oh=00_AfnYs6lH349oOEdPYVOxLAF6uEFNfscUhbphd7SlF6Ekcw&oe=694DFC35",
+                "https://scontent.fbom50-1.fna.fbcdn.net/v/t51.82787-15/573807641_18544239886023841_1779621176930326953_n.webp?stp=dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=hX9sZVLSoSEQ7kNvwEdym8Q&_nc_oc=Adn3sttYBZauPfRggBQQSR-YbIo6339U8reUtXTkXtbj0cnOTZLYiyB74CT3wx6YfrI&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=DRXoJR9p56JHLLshZSytnQ&oh=00_AfmLkhOCMd6oS__TzzAlKtxuWOpZrCwivZeIzpIUG7H53Q&oe=694DFEC6",
+                "https://scontent.fbom50-1.fna.fbcdn.net/v/t51.82787-15/573617957_18544239847023841_2744126257693207014_n.webp?stp=dst-jpg_tt6&_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_ohc=mQJOEtzRohwQ7kNvwGvUMsF&_nc_oc=Adkn4QOpLwlbEBkUF7kEO25y0zSDJkc71jP7C_gvsNQ6-y0ANnPBwPWzAVmXXQQio6k&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=Oi-zOJYTG4uaufVcKlfI0A&oh=00_AflFfhwVcSZWMEWolqRzgTqxjddpZtbNFKOJRs-DKjJvWw&oe=694E0054",
+                "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-6/575100343_3021630271353758_138954628542106346_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JMSxP4C72BwQ7kNvwFkvBWj&_nc_oc=AdlwfZwRoEOqvnr3Qkb_DQ1skwuattxSMZN4tfeJW5kS-a9ivg2onSR5MZ1oF-rxJPw&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=RAKgTViLaaZVH93vfk7YpA&oh=00_AfnQKZml-QbvGhoDodQhI8gXUsr5iAqRsK5NAjXsh5FtRA&oe=694E083A",
+                "https://scontent.fbom50-1.fna.fbcdn.net/v/t39.30808-6/575107475_3021630024687116_6085997416766351270_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NiJ37ZsQ2UcQ7kNvwGkkJdC&_nc_oc=AdmP0REGMSyYljxB1pJCfJanEQdMZRA5sxTTJ37LbRh7__ZQmrqkO8JtRY6IUthGhOc&_nc_zt=23&_nc_ht=scontent.fbom50-1.fna&_nc_gid=iBxdcabPxJ8kmgDto1G5zA&oh=00_AfkJ36nFTOH-nCc-yfSJj45lArrVhJetmBrkqX6Q43eJlw&oe=694DFE01"
             ]
         },
         {
